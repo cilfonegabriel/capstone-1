@@ -99,9 +99,11 @@ html {
 }
 
 .mobile-top-page {
-  background-image: linear-gradient(
-    rgba(253, 253, 253, -0.12),
-    rgba(253, 253, 253, 0.55)), 
+  background-image:
+    linear-gradient(
+      rgba(253, 253, 253, -0.12),
+      rgba(253, 253, 253, 0.55)
+    ),
     url('../images/restaurant-near-camp-nou.png');
   background-repeat: no-repeat;
   background-position: top center;
@@ -178,7 +180,7 @@ html {
 }
 
 .card-flex {
-  margin: 0px 0px 0px 0px;
+  margin: 0 0 0 0;
 }
 
 .mobile-second-page h2 {
@@ -374,7 +376,7 @@ html {
     padding-top: 60px;
     padding-left: 40px;
     padding-right: 40px;
-    }
+  }
 
   .nav-list {
     display: flex;
@@ -403,7 +405,7 @@ html {
     font-size: large;
     font-weight: bolder;
     white-space: nowrap;
-    margin: 0px 0px 0px -31px;
+    margin: 0 0 0 -31px;
   }
 
   .desktop-menu .fab {
@@ -442,12 +444,11 @@ html {
   .mobile-first-page h1 {
     font-size: 209%;
     margin: 0% 0% 0% -15%;
-    text-align: -webkit-left;
   }
 
   .mobile-first-page h2 {
     width: 81%;
-    text-align: -webkit-left;
+    text-align: left;
     margin: 0% 0% 0% -14%;
   }
 
@@ -566,8 +567,6 @@ html {
     width: 25%;
   }
 
-
-
   .mobile-second-page h2 {
     font-family: 'Lato', sans-serif;
     font-size: 154%;
@@ -576,15 +575,12 @@ html {
     margin: 0% 0% 0% 44%;
   }
 
-
   .mobile-second-page h2::after {
     content: "";
     background-color: var(--primary_2);
     display: block;
-    margin: 0 auto;
     width: 11%;
     border-radius: 0%;
-    margin-top: 1%;
     margin: 2% 0% 0% 5%;
   }
 
@@ -685,7 +681,7 @@ html {
     margin: 4% 0% 0% 0%;
   }
 
-  .footer-p p{
+  .footer-p p {
     margin-top: 4%;
   }
 
@@ -694,4 +690,3 @@ html {
     margin: -6% 18% 0% 0%;
   }
 }
-
