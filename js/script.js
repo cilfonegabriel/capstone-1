@@ -3,39 +3,39 @@ window.onload = () => {
 
 const guestSpeakers = [
     {
-        image: '../assets/images/square-issac.png',
+        image: './assets/images/square-issac.png',
         name: 'Isaac Guerrero',
         role: 'Technical Director',
         bio: 'FC Barcelona Football School'
     },
     {
-        image: '../assets/images/square-laporta.png',
+        image: './assets/images/square-laporta.png',
         name: 'Joan Laporta ',
         role: 'President of the Barcelona club',
         bio: 'Businessman, politician and lawyer.'
     },
     {
-        image: '../assets/images/square-guardiola.png',
+        image: './assets/images/square-guardiola.png',
         name: 'Josep Guardiola',
         role: 'Former soccer player and soccer coach.',
         bio: 'Manchester City'
 
     },
     {
-        image: '../assets/images/square-nevad.png',
+        image: './assets/images/square-nevad.png',
         name: 'Nenad Bjeica',
         role: 'Football Coach',
         bio: 'Gnk Dinamo Zabreg'
     },
  
     {
-        image: '../assets/images/square-joseph.png',
+        image: './assets/images/square-joseph.png',
         name: 'Johan Cruyff',
         role: 'Former soccer player and soccer coach.',
         bio: 'The best player in Europe of the 20th century'
     },
     {
-        image: '../assets/images/diseño.png',
+        image: './assets/images/diseño.png',
         name: 'Daniela Alvez',
         role: 'CEO of the technology department',
         bio: 'Leader in Machine Learning and Barcelona systems.'
