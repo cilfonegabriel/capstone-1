@@ -32,14 +32,17 @@ After you're finished please remove all the comments and instructions!
 </div>
 
 
-# Portfolio
-My personal portfolio
-
-> This is My personal portfolio project, I'm starting off with HTML and CSS and I plan to add more features to this repository in the future and eventually use it as my main portfolio!
+# Capstone 1
+> This is the first milestone in the conference website project. Application was build with HTML, CSS, JavaScript and Bootstrap to meet the need of a conference website. 
+Users will be able to register for event, create account, join event, access speaker's information, have information about both past and upcoming events and schedule their own events.
 
 ## Built With
 
-- Html & Css & Java Script
+- Html
+- CSS
+- JavaScript
+- Bootstrap
+- Git and GitHub
 
 ## Getting Started
 
@@ -67,7 +70,7 @@ My personal portfolio
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/cilfonegabriel/My-portfolio)
+Feel free to check the [issues page](https://github.com/cilfonegabriel/capstone-1/issues)
 
 ## Show your support
 
@@ -79,8 +82,14 @@ Give a ⭐ if you like this project!
 - Inspiration
 - etc
 
-## Explication about the project
-Here video: [Gabrie Cilfone](https://www.loom.com/share/52f0b673109344259b3f685f9bce96ae)
+## Explication about the project and look at the website
+Here video: [Gabriel Cilfone](https://www.loom.com/share/894ab4daec184cd685fc27d8d9594ad0)
+Here Website: [Gabriel Cilfone](https://cilfonegabriel.github.io/capstone-1/#)
+
+## Acknowledgment 
+- Microverse 
+-  Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07)
+- [Creative commons](https://creativecommons.org/licenses/by-nc/4.0/)
 
 ## 📝 License
 
