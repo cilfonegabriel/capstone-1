@@ -35,7 +35,7 @@ const guestSpeakers = [
         bio: 'The best player in Europe of the 20th century'
     },
     {
-        image: './assets/images/Diseño.png',
+        image: "./assets/images/Diseño.png",
         name: 'Daniela Alvez',
         role: 'CEO of the technology department',
         bio: 'Leader in Machine Learning and Barcelona systems.'
