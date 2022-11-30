@@ -83,8 +83,8 @@ Give a ⭐ if you like this project!
 - etc
 
 ## Explication about the project and look at the website
-Here video: [Gabriel Cilfone](https://www.loom.com/share/894ab4daec184cd685fc27d8d9594ad0)
-Here Website: [Gabriel Cilfone](https://cilfonegabriel.github.io/capstone-1/#)
+-Here video: [Gabriel Cilfone](https://www.loom.com/share/894ab4daec184cd685fc27d8d9594ad0)
+-Here Website: [Gabriel Cilfone](https://cilfonegabriel.github.io/capstone-1/#)
 
 ## Acknowledgment 
 - Microverse 
