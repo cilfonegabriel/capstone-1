@@ -148,17 +148,19 @@ body {
 .about-second-section h2,
 h3 {
   font-family: 'Lato', sans-serif;
-  font-size: 27px;
+  font-size: 120%;
   padding-bottom: 1%;
+  text-align: center;
 }
 
 .about-mobile-first-section h3 {
   display: flex;
   justify-content: center;
   font-family: 'Lato', sans-serif;
-  font-size: 15px;
+  font-size: 100%;
   color: var(--primary_4);
-  margin: 16px 0px 0px 30px;
+  margin: 10% 0% 0% 3%;
+  text-align: center;
 }
 
 .about-mobile-first-section h4 {
@@ -186,7 +188,8 @@ h3 {
 .about-second-section p {
   color: #797474;
   padding-top: 1%;
-  margin: 3% 0% 2% 0%;
+  margin: 3% 3% 2% 7%;
+  text-align: center;
 }
 
 .about-second-section .line3 {
@@ -220,7 +223,7 @@ h3 {
   align-self: center;
   padding-top: 5%;
   border-top: 2px solid #808080;
-  width: 100%;
+  width: 98%;
   text-align: center;
   font-family: 'Lato', sans-serif;
 }
@@ -348,4 +351,209 @@ h3 {
 .footer-p {
   font-family: 'Lato', sans-serif;
   color: #161515;
+}
+
+@media all and (min-width: 768px) {
+  #about-handburger {
+    display: none;
+  }
+
+  .header-menu {
+    display: flex;
+    width: 100%;
+    justify-content: right;
+    background-color: var(--primary_4);
+    padding-bottom: 11px;
+    padding-top: 16px;
+    position: fixed;
+  }
+
+  .header-menu a {
+    text-decoration: none;
+    color: var(--secondary_1);
+    margin-right: 27px;
+    font-family: 'Lato', sans-serif;
+  }
+
+  .desktop-menu {
+    display: flex;
+    width: 96%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--secondary_1);
+    padding-top: 60px;
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  .nav-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    flex-wrap: nowrap;
+    margin: -5%;
+  }
+
+  .desktop-menu a {
+    text-decoration: none;
+    margin-right: 15px;
+    color: var(--primary_4);
+    font-family: 'Lato', sans-serif;
+  }
+
+  .desktop-menu .os-logo {
+    font-size: large;
+    font-weight: bolder;
+    white-space: nowrap;
+  }
+
+  .desktop-menu .fab {
+    color: var(--primary_2);
+    font-size: large;
+    font-weight: bolder;
+  }
+
+  .desktop-menu .about {
+    color: var(--primary_2);
+  }
+
+  .desktop-menu .OS-campaign {
+    color: var(--primary_2);
+    border: solid 3px var(--primary_2);
+    padding: 7px;
+    white-space: nowrap;
+  }
+
+  #about-first-page {
+    padding-top: 60px;
+  }
+
+  .first-section-background {
+    background-color: #f3ebeb;
+  }
+
+  .about-mobile-first-section h1 {
+    font-size: 40px;
+  }
+
+  .about-mobile-first-section h2 {
+    color: var(--secondary_5);
+    font-size: 237%;
+  }
+
+  .about-mobile-first-section h2::after {
+    content: "";
+    background-color: var(--primary_2);
+    display: block;
+    margin: 0 auto;
+    width: 1.3em;
+    height: 2px;
+    border-radius: 0.5px;
+    margin-top: 0.5em;
+  }
+
+  .about-mobile-first-section p {
+    margin: 5% auto;
+    background-color: var(--secondary_1);
+    border: 2px solid var(--secondary_4);
+    color: var(--primary_4);
+    padding: 40px;
+    line-height: 25px;
+    width: 60%;
+  }
+
+  .about-mobile-first-section h3 {
+    font-size: 88%;
+    text-align: center;
+  }
+
+  .about-mobile-first-section h4 {
+    font-size: 100%;
+    color: #202125;
+  }
+
+  .about-second-section {
+    padding-top: 40px;
+  }
+
+  .about-second-section h3::after {
+    content: "";
+    background-color: var(--primary_2);
+    display: block;
+    margin: 0 auto;
+    width: 1.5em;
+    height: 2px;
+    border-radius: 0.5px;
+    margin-top: 0.5em;
+  }
+
+  .logo-2 {
+    font-family: 'Lato', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    justify-content: center;
+    border: 1px solid var(--primary_5);
+    padding: 25px 10%;
+    margin: 3% 0;
+    text-align: center;
+  }
+
+  .previous-event {
+    gap: 1%;
+    display: flex;
+    flex-direction: row;
+    width: 68%;
+    margin-left: 17%;
+    text-align: center;
+  }
+
+  .partners {
+    display: none;
+  }
+
+  .mobile-about-footer {
+    background-color: #e3e3e3;
+  }
+
+  .mobile-about-footer a {
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 20px;
+  }
+
+  .mobile-about-footer a i {
+    color: var(--primary_2);
+  }
+
+  .mobile-about-footer a span {
+    color: var(--secondary_1);
+  }
+
+  .footer-p {
+    font-family: 'Lato', sans-serif;
+  }
+
+  .desktop-menu img {
+    width: 27%;
+    margin: -9% 0% -8% -2%;
+    text-align: -webkit-left;
+  }  
+
+  .logo2 {
+    border: 1px solid var(--primary_5);
+    margin: 0% 0;
+    padding: -1px 68px;
+    width: 38%;
+  }
+
+  .techrunch-1{
+    position: relative;
+    margin: 5% auto;
+    width: 20rem;
+    height: 12rem;
+  }
+
 }
