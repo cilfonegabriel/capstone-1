@@ -376,11 +376,11 @@ html {
 
   .desktop-menu {
     display: flex;
-    width: 100%;
+    width: 96%;
     justify-content: space-between;
     align-items: center;
     background-color: var(--secondary_1);
-    padding-top: 60px;
+    padding-top: 34px;
     padding-left: 40px;
     padding-right: 40px;
   }
@@ -398,7 +398,7 @@ html {
 
   .desktop-menu img {
     width: 20%;
-    margin: -5% 0% -4% 0%;
+    margin: -6% 0% -7% 0%;
   }
 
   .desktop-menu a {
@@ -622,9 +622,10 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
+    margin-top: 17%;
     padding: 2%;
     background-color: #424146;
+    margin-bottom: 0%;
   }
 
   .partners h2 {
@@ -661,10 +662,9 @@ html {
   .mobile-about-footer {
     background-color: var(--secondary_2);
     display: flex;
-    padding: 25px;
     flex-direction: row;
     justify-content: center;
-    width: 100%;
+    margin: 0% 0% 0% 0%;
   }
 
   .mobile-about-footer a {
