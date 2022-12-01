@@ -349,6 +349,10 @@ html {
   display: none;
 }
 
+#card2,#card3,#card4,#card5{
+  display:none;
+}
+
 @media all and (min-width: 768px) {
   .header-menu {
     display: flex;
@@ -689,4 +693,5 @@ html {
     width: 27%;
     margin: -6% 18% 0% 0%;
   }
+
 }
