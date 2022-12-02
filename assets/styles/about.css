@@ -514,7 +514,7 @@ h3 {
   }
 
   .mobile-about-footer {
-    background-color: var(--secondary_2);
+    background-color: #2e2e2e;
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -541,6 +541,7 @@ h3 {
   .footer-p {
     font-family: 'Lato', sans-serif;
     padding-bottom: 0%;
+    color: white;
   }
 
   .desktop-menu img {
