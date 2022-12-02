@@ -507,19 +507,21 @@ h3 {
     width: 68%;
     margin-left: 17%;
     text-align: center;
-    margin-top: 9%;
-  }
+    }
 
   .partners {
     display: none;
   }
 
   .mobile-about-footer {
-    background-color: #e3e3e3;
-    margin: 8% 0% 0% 0%;
+    background-color: var(--secondary_2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 104px;
   }
-
-
 
   .mobile-about-footer a {
     text-decoration: none;
@@ -538,7 +540,7 @@ h3 {
 
   .footer-p {
     font-family: 'Lato', sans-serif;
-    padding-bottom: 6%;
+    padding-bottom: 0%;
   }
 
   .desktop-menu img {
@@ -561,6 +563,7 @@ h3 {
   }
 
   .mobile-about-footer img {
-    margin: -9% 0% 0% 0%;
-  }
+    width: 115px;
+    margin: 0% 12% 0% 0%;
+    height: 94px;  }
 }

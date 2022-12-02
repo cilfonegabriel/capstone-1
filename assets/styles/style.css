@@ -442,10 +442,10 @@ html {
 
   .partners img {
     flex-wrap: wrap;
-    padding-right: 20px;
+    padding-right: 11px;
     padding-top: 20px;
-    width: 150px;
-    height: 60px;
+    width: 15%;
+    height: 100%;
   }
 
   .mobile-first-page h1 {
@@ -622,10 +622,11 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 17%;
-    padding: 2%;
+    margin-top: 13%;
+    padding: 0%;
     background-color: #424146;
     margin-bottom: 0%;
+    margin-top: 17%;
   }
 
   .partners h2 {
@@ -664,7 +665,9 @@ html {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 0% 0% 0% 0%;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 76px;
   }
 
   .mobile-about-footer a {
@@ -685,15 +688,36 @@ html {
   .footer-p {
     font-family: 'Lato', sans-serif;
     color: #161515;
-    margin: 4% 0% 0% 0%;
+    margin: 6% 0% 0% 0%;
+    font-size: small;
   }
 
   .footer-p p {
-    margin-top: 4%;
+    margin-top: -5%;
   }
 
   .mobile-about-footer img {
-    width: 27%;
-    margin: -6% 18% 0% 0%;
+    width: 115px;
+    margin: 0% 12% 0% 0%;
+    height: 94px;
+  }
+}
+
+@media all and (min-width: 1339px) {
+  .mobile-about-footer {
+    background-color: var(--secondary_2);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 95px;
+  }
+
+  .footer-p {
+    font-family: 'Lato', sans-serif;
+    color: #161515;
+    margin: 3% 0% 0% 0%;
+    font-size: small;
   }
 }
